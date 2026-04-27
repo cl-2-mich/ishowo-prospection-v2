@@ -34,8 +34,8 @@ Pipeline de Lead Generation automatisé pour la solution **ISHOWO**.
 
 ### Endpoints disponibles :
 - `POST /collect` → Lance le scraping (GoAfrica + Google)
-- `GET /prospects` → Consulte les prospects collectés
-- `GET /prospects/stats` → Statistiques de la base
+* `POST /process` → Normalise et analyse avec l'IA (Pilier 3)
+* `GET /prospects` → Affiche les prospects qualifiés (Pilier 4)
     """,
     version="1.0.0",
     lifespan=lifespan,

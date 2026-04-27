@@ -82,7 +82,6 @@ class ProspectRepository:
 
     def compter(self) -> int:
         return self.db.query(Prospect).count()
-
     def update(self, prospect_id: int, data) -> Optional[Prospect]:
         prospect = self.get_by_id(prospect_id)
         if not prospect:
